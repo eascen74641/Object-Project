@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang = "en-us">
+    <head>
+        <script src = "empYourLastName.js"></script>
+        
+        <style>
+            body
+            {
+                font-size: 16px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            b
+            {
+                font-size: 20px;
+            }
+        </style>
+        
+        <meta charset = "utf8">
+        
+        <title>Employee Information</title>
+    </head>
+
+    <body>
+        <b><u>Enter Your Information:</u></b>
+
+        <br><br>
+        
+        Enter your name: <input type = "text" id = "name">
+        
+        <br><br>
+        
+        Enter your ID Number: <input type = "text" id = "employeeId">
+        
+        <br><br>
+        
+        Enter the shift number: <input type = "text" id = "shiftNumber">
+        
+        <br><br>
+        
+        Enter your hourly rate: <input type = "text" id = "hourlyPayRate">
+        
+        <br><br>
+        
+        <button type = "button" onclick = "outputWorker()">
+            Submit
+        </button>
+        
+        <br><br><br><br>
+        
+        <b><u>Production Worker Information:</u></b>
+        
+        <br><br>
+        
+        <div id = "output"></div>
+    </body>
+</html>
